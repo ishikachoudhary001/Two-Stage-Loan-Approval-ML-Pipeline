@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Two-Stage Loan Approval & Amount Prediction Pipeline
 
 A machine learning project that uses a two-stage Random Forest pipeline
@@ -185,31 +184,6 @@ configuration on the project's synthetic dataset.
 These are baseline results from the current validation run. Results may
 vary if the dataset or configuration changes.
 
-## Limitations
 
--   The dataset is synthetic and may not represent real-world lending
-    conditions.
--   Predictions depend on patterns learned from the training data.
--   A predicted approval is not an actual loan sanction.
--   The predicted loan amount is an estimate, not a bank-approved offer.
--   Performance on synthetic data does not establish real-world lending
-    accuracy.
 
-**This project is intended for educational and demonstration purposes
-only. It should not be used to make real lending decisions.**
 
-## Future Improvements
-
--   Compare additional classification and regression algorithms.
--   Perform systematic hyperparameter tuning.
--   Add model explainability.
--   Improve input validation and prediction constraints.
--   Add automated unit and integration tests.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file
-for details.
-=======
-# Two-Stage-Loan-Approval-ML-Pipeline
->>>>>>> 4527927e35b78a227eea4047976ff8aca7531f95
