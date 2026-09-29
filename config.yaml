@@ -1,0 +1,36 @@
+
+models:
+  classifier: models/stage_1_rf_classifier_pipeline.pkl
+  regressor: models/stage_2_rf_regression_pipeline.pkl
+
+data:
+  path: data/loan_approval_dataset.csv
+  test_size: 0.2
+  random_state: 42
+
+training:
+  classifier:
+    n_estimators: 100
+    max_depth: 8
+    min_samples_leaf: 5
+    random_state: 42
+
+  regressor:
+    n_estimators: 100
+    max_depth: 8
+    min_samples_leaf: 5
+    random_state: 42
+
+ui:
+  default_inputs:
+    no_of_dependents: 1
+    education: Graduate
+    self_employed: No
+    income_annum: 1200000
+    requested_loan_amount: 300000
+    loan_term: 12
+    cibil_score: 800
+    residential_assets_value: 2000000
+    commercial_assets_value: 2000000
+    luxury_assets_value: 0
+    bank_asset_value: 55000
