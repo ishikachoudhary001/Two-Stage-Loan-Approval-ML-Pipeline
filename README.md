@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Two-Stage Loan Approval & Amount Prediction Pipeline
 
 A machine learning project that uses a two-stage Random Forest pipeline
@@ -209,3 +210,6 @@ only. It should not be used to make real lending decisions.**
 
 This project is licensed under the MIT License. See the `LICENSE` file
 for details.
+=======
+# Two-Stage-Loan-Approval-ML-Pipeline
+>>>>>>> 4527927e35b78a227eea4047976ff8aca7531f95
